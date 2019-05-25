@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -19,12 +20,13 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -34,5 +36,985 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+  <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/font-awesome/css/font-awesome.min.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="opalhotel-global-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/globals.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Roboto-css"
+      href="//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Assistant-css"
+      href="//fonts.googleapis.com/css?family=Assistant%3A300%2C400%2C600%2C700%2C800&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Raleway-css"
+      href="//fonts.googleapis.com/css?family=Raleway%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Oswald-css"
+      href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Oleo-css"
+      href="//fonts.googleapis.com/css?family=Oleo+Script%3A400%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Playfair-css"
+      href="//fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C900&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Rajdhani-css"
+      href="//fonts.googleapis.com/css?family=Rajdhani%3A400%2C500%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Source-css"
+      href="//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-RobotoCo-css"
+      href="//fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C400%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Tangerine-css"
+      href="//fonts.googleapis.com/css?family=Tangerine%3A400%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Poppins-css"
+      href="//fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-DScript-css"
+      href="//fonts.googleapis.com/css?family=Dancing+Script%3A400%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Satisfy-css"
+      href="//fonts.googleapis.com/css?family=Satisfy&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-gfonts-Roboto-Slab-css"
+      href="//fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C700&amp;ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-basic-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/style.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-editor-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/editor-style.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-base-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/default.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-opal-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/opalhotel.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-hotel-booking-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/hotel-booking.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-nivo-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/nivo-slider.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-font-awesome-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/font-awesome.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-owlcss-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/owl/owl.carousel.min.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-owltheme-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/owl/owl.theme.default.min.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-responsive-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/responsive.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-mixitup-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/mixitup/style-mixitup.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-fancybox-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/jquery.fancybox.min.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-lightslider-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/lightslider.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="travern-animate-style-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/animate.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="opal-hotel-room-booking-css"
+      href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/css/opalhotel.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="owl-carousel-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/owl-carousel/owl.carousel.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="prettyPhoto-css-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/prettyPhoto/css/prettyPhoto.css?ver=4.9.10"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="jBox-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/jBox/jBox.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="jBox-notice-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/jBox/plugins/Notice/jBox.Notice.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="mCustomScrollbar-css"
+      href="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/mCustomScrollbar/jquery.mCustomScrollbar.css?ver=1.1.7.1"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-includes/js/jquery/jquery.js?ver=1.12.4"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/js/jquery.nivo.slider.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/js/custom.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/js/jquery.counterup.min.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/mixitup/jquery.mixitup.min.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/js/jquery.fancybox.min.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/js/lightslider.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/js/wow.min.js?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//maps.googleapis.com/maps/api/js?key=AIzaSyDRVUZdOrZ1HuJFaFkDtmby0E93eJLykIk&amp;libraries=geometry%2Cgeocoder&amp;ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//www.youtube.com/iframe_api?ver=4.9.10"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://flythemesdemo.net/travern/wp-content/plugins/opal-hotel-room-booking/assets/libraries/prettyPhoto/js/jquery.prettyPhoto.js?ver=4.9.10"
+    ></script>
+    <link
+      rel="https://api.w.org/"
+      href="http://flythemesdemo.net/travern/wp-json/"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="http://flythemesdemo.net/travern/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="http://flythemesdemo.net/travern/wp-includes/wlwmanifest.xml"
+    />
+    <meta name="generator" content="WordPress 4.9.10" />
+
+    <script>
+      jQuery(window).load(function() {
+        jQuery('#slider').nivoSlider({
+          effect: 'random',
+          animSpeed: 500,
+          pauseTime: 4000,
+          directionNav: true,
+          controlNav: false,
+          pauseOnHover: false
+        })
+      })
+
+      jQuery(document).ready(function() {
+        jQuery('.link').on('click', function(event) {
+          var $this = jQuery(this)
+          if ($this.hasClass('clicked')) {
+            $this.removeAttr('style').removeClass('clicked')
+          } else {
+            $this.css('background', '#7fc242').addClass('clicked')
+          }
+        })
+      })
+    </script>
+    <style>
+      body {
+        font-family: Karla;
+        font-size: 16px;
+        color: #888888;
+        font-weight: 300;
+        font-style: normal;
+      }
+      .contact-form-section .address {
+        color: #888888;
+      }
+      body {
+        background-color: #ffffff;
+      }
+      h1 {
+        font-family: Roboto Slab;
+        font-size: 32px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h2 {
+        font-family: Roboto Slab;
+        font-size: 25px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h3 {
+        font-family: Roboto Slab;
+        font-size: 22px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h4 {
+        font-family: Roboto Slab;
+        font-size: 18px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h5 {
+        font-family: Roboto Slab;
+        font-size: 14px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h6 {
+        font-family: Roboto Slab;
+        font-size: 12px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 700;
+      }
+      .logo h1 {
+        font-family: Oswald;
+        font-size: 40px;
+        color: #dda668;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .logo a {
+        color: #dda668;
+      }
+      .sitenav ul {
+        font-family: Roboto Condensed;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+      }
+      .sitenav ul li a,
+      .sitenav ul li.current_page_item ul li a {
+        color: #ffffff;
+      }
+      .tagline,
+      .logo p {
+        font-family: Roboto Condensed;
+        font-size: 14px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .nivo-caption h2 {
+        font-family: Raleway;
+        font-size: 54px;
+        color: #dda668;
+        font-style: normal;
+        font-weight: 700;
+      }
+      .nivo-caption p {
+        font-family: Karla;
+        font-size: 22px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+      }
+      h2.section_title {
+        font-family: Roboto Slab;
+        font-size: 50px;
+        color: #1a2c56;
+        font-style: normal;
+        font-weight: 400;
+      }
+      #clienttestiminials .tmttl h4 {
+        font-family: Roboto Condensed;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      #clienttestiminials .tmttl h4 a {
+        color: #242c3a;
+      }
+      .teamdesbox h2,
+      .team-testi-post-thumb span {
+        font-family: Roboto Slab;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .teamdesbox h2 a,
+      .team-testi-post-thumb span {
+        color: #242c3a;
+      }
+      .teamdesbox cite {
+        font-family: Roboto;
+        font-size: 16px;
+        color: #242c3a;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .news-desc h4 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+      }
+      .news-desc h4 a {
+        color: #242c3a;
+      }
+      .cols-3 h5 {
+        font-family: Roboto Slab;
+        font-size: 28px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h3.widget-title {
+        font-family: Roboto Condensed;
+        font-size: 21px;
+        color: #161616;
+        font-style: normal;
+        font-weight: 700;
+      }
+      h3.post-title {
+        font-family: Roboto Condensed;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      h3.post-title a {
+        color: #242423;
+      }
+      h3.post-title a:hover {
+        color: #dda668;
+      }
+      h1.innerpage-title {
+        font-family: Teko;
+        font-size: 48px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .woocommerce h1.product_title {
+        font-family: Oswald;
+        font-size: 35px;
+        color: #161616;
+        font-style: normal;
+        font-weight: 400;
+      }
+      a,
+      .slide_toggle a,
+      .postby a,
+      .nav-previous h5,
+      .nav-next h5,
+      .news-box a.ReadMore {
+        color: #dda668;
+      }
+      a:hover,
+      .slide_toggle a:hover,
+      .postby a:hover,
+      .nav-previous:hover h5,
+      .nav-next:hover h5,
+      .news-box a.ReadMore:hover {
+        color: #343c49;
+      }
+      .logo img {
+        height: 45px;
+      }
+      .top-header {
+        background-color: #343c49;
+      }
+      .top-header .tp-header-left li,
+      .top-header .tp-header-left li a {
+        color: #ffffff;
+      }
+      .header {
+        background-color: #242c3a;
+      }
+      .social-icons a {
+        color: #dda668;
+      }
+      .social-icons a:hover {
+        color: #000000;
+      }
+      .sitenav ul li:hover > ul {
+        background-color: rgba(36, 44, 58, 1);
+      }
+      .sitenav ul li.current_page_item a,
+      .sitenav ul li a:hover,
+      .sitenav ul li.current_page_item ul li a:hover {
+        color: #dda668;
+      }
+      .nivo-controlNav a {
+        background-color: #242423;
+      }
+      .nivo-controlNav a.active,
+      .nivo-controlNav a:hover {
+        background-color: #dda668;
+      }
+      .nivo-controlNav a {
+        border-color: #ffffff;
+      }
+      .sec-overlay h2.section_title {
+        color: #ffffff;
+      }
+      .featture-box-cont {
+        background-color: rgba(36, 44, 58, 0.8);
+      }
+      .featture-box-cont h2 {
+        color: #dda668;
+      }
+      .travern_check_room_ttl h3 {
+        color: #ffffff;
+      }
+      .image-info-box {
+        background-color: #242c3a;
+      }
+      .image-info-cont h2 {
+        color: #dda668;
+      }
+      .teammember-list:hover h2 a,
+      .teammember-list:hover cite {
+        color: #dda668;
+      }
+      #clienttestiminials .tmttl h4 a:hover {
+        color: #dda668;
+      }
+      .news-box:hover .news-desc h4 a {
+        color: #dda668;
+      }
+      #footer-wrapper {
+        background-color: #242c3a;
+      }
+      .copyright-wrapper {
+        background-color: #343c49;
+      }
+      #footer-wrapper,
+      .contactdetail .fa {
+        color: #ffffff;
+      }
+      .cols-3 ul li a,
+      ul.foo-menu li a {
+        color: #ffffff;
+      }
+      .contactdetail a:hover,
+      .contact_right .contactdetail a:hover,
+      .cols-3 ul li a:hover,
+      ul.foo-menu li a:hover {
+        color: #dda668;
+      }
+      .contactdetail a {
+        color: #ffffff;
+      }
+      .copyright-txt,
+      .designby {
+        color: #ffffff;
+      }
+      .copyright-wrapper a {
+        color: #ffffff;
+      }
+      .copyright-wrapper a:hover {
+        color: #dda668;
+      }
+      .sec-overlay::before,
+      .innerbanner::before,
+      .post-overlay,
+      .gallery-image,
+      .info-thumb::before,
+      .travern_check_room_right_inner {
+        background-color: rgba(36, 44, 58, 0.8);
+      }
+      a.morebutton,
+      a.main-button,
+      #commentform input#submit,
+      input.search-submit,
+      .post-password-form input[type='submit'],
+      p.read-more a,
+      .wpcf7 form input[type='submit'],
+      .pagination ul li .current,
+      .pagination ul li a:hover,
+      .woocommerce #respond input#submit,
+      .woocommerce a.button,
+      .woocommerce button.button,
+      .woocommerce button.button.alt,
+      .woocommerce input.button,
+      .woocommerce a.added_to_cart,
+      .woocommerce a.button.alt,
+      .woocommerce input.button.alt,
+      .woocommerce span.onsale,
+      .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+      .woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+      .woocommerce nav.woocommerce-pagination ul li span.current,
+      ul.portfoliofilter li.active,
+      .owl-prev,
+      .owl-next,
+      .post_button a,
+      .postcategory a,
+      #sidebar .widget_tag_cloud a:hover,
+      .owl-theme .owl-dots .owl-dot.active span,
+      .owl-theme .owl-dots .owl-dot:hover span,
+      #clienttestiminials .owl-theme .owl-nav [class*='owl-'],
+      blockquote.align-right::before,
+      blockquote.align-left::before,
+      .author-box,
+      .member-social-icon a,
+      ul.portfoliofilter li:hover,
+      ul.portfoliofilter li a:hover,
+      .image_info_content,
+      .icon-top::after,
+      .contact-social .social-icons a,
+      .head-button a,
+      .opalhotel-modal-button:hover,
+      .opalhotel-button-submit:hover,
+      .reservation_step:hover,
+      .opalhotel-reservation-process-steps ul li span,
+      ul.opalhotel-search-results
+        li.opalhotel-available-item
+        .room-actions
+        .opalhotel-room-toggle-packages:hover {
+        background-color: #dda668;
+      }
+      .woocommerce-product-details__short-description ul li::before,
+      ul.list-1 li::before,
+      ul.list-2 li::before,
+      ul.list-3 li::before,
+      ul.list-4 li::before,
+      ul.list-5 li::before,
+      ul.list-6 li::before,
+      ul.list-7 li::before,
+      ul.list-8 li::before,
+      ul.list-9 li::before,
+      ul.list-10 li::before,
+      .top-header .tp-header-left li a:hover,
+      .opalhotel-room-meta li::before,
+      .star-wrapper .star,
+      .opalhotel-price .price-value {
+        color: #dda668;
+      }
+      h3.widget-title {
+        border-left-color: #dda668;
+      }
+      .team-testi-post-thumb img,
+      .icon-top,
+      .opalhotel-reservation-process-steps ul {
+        border-color: #dda668;
+      }
+      a.main-button,
+      a.morebutton,
+      #commentform input#submit,
+      input.search-submit,
+      .post-password-form input[type='submit'],
+      p.read-more a,
+      .pagination ul li span,
+      .pagination ul li a,
+      .wpcf7 form input[type='submit'],
+      .contact_right .contactdetail a,
+      .woocommerce #respond input#submit,
+      .woocommerce a.button,
+      .woocommerce button.button,
+      .woocommerce button.button.alt,
+      .woocommerce input.button,
+      .woocommerce a.added_to_cart,
+      .woocommerce a.button.alt,
+      .woocommerce input.button.alt,
+      .woocommerce span.onsale,
+      .woocommerce nav.woocommerce-pagination ul li a:focus,
+      .woocommerce nav.woocommerce-pagination ul li a:hover,
+      .woocommerce nav.woocommerce-pagination ul li span.current,
+      .post_button a,
+      .postcategory a,
+      #sidebar .widget_tag_cloud a:hover,
+      #clienttestiminials .owl-theme .owl-nav [class*='owl-'],
+      .member-social-icon a {
+        color: #ffffff;
+      }
+      a.morebutton:hover,
+      a.main-button:hover,
+      #commentform input#submit:hover,
+      input.search-submit:hover,
+      .post-password-form input[type='submit']:hover,
+      p.read-more a:hover,
+      .wpcf7 form input[type='submit']:hover,
+      #sidebar .search-form input.search-field,
+      .pagination ul li span,
+      .pagination ul li a,
+      .woocommerce #respond input#submit:hover,
+      .woocommerce a.button:hover,
+      .woocommerce button.button:hover,
+      .woocommerce button.button.alt:hover,
+      .woocommerce input.button:hover,
+      .woocommerce a.added_to_cart:hover,
+      .woocommerce a.button.alt:hover,
+      .woocommerce input.button.alt:hover,
+      .woocommerce
+        .widget_price_filter
+        .price_slider_wrapper
+        .ui-widget-content,
+      .woocommerce nav.woocommerce-pagination ul li a:focus,
+      .woocommerce nav.woocommerce-pagination ul li a:hover,
+      .post_button a:hover,
+      .owl-prev:hover,
+      .owl-next:hover,
+      .postcategory a:hover,
+      #sidebar .widget_tag_cloud a,
+      .post-cat a:hover,
+      .owl-theme .owl-dots .owl-dot span,
+      #clienttestiminials .owl-theme .owl-nav [class*='owl-']:hover,
+      .member-social-icon a:hover,
+      .contact-social .social-icons a:hover,
+      .head-button a:hover,
+      .opalhotel-button-submit,
+      .opalhotel-modal-button,
+      .reservation_step,
+      .opalhotel-reservation-process-steps ul li.active span,
+      .opalhotel-reservation-process-steps ul li::after,
+      ul.opalhotel-search-results
+        li.opalhotel-available-item
+        .room-actions
+        .opalhotel-room-toggle-packages,
+      .opalhotel_checkout_booking_detail,
+      .opalhotel_order_recived .opalhotel_order_details {
+        background-color: #343c49;
+      }
+      .head-button a,
+      .hotel-room-price {
+        color: #343c49;
+      }
+      a.morebutton:hover,
+      a.main-button:hover,
+      #commentform input#submit:hover,
+      input.search-submit:hover,
+      .post-password-form input[type='submit']:hover,
+      p.read-more a:hover,
+      .wpcf7 form input[type='submit']:hover,
+      #sidebar .search-form input.search-field,
+      .pagination ul li span,
+      .pagination ul li a,
+      .woocommerce #respond input#submit:hover,
+      .woocommerce a.button:hover,
+      .woocommerce button.button:hover,
+      .woocommerce button.button.alt:hover,
+      .woocommerce input.button:hover,
+      .woocommerce a.added_to_cart:hover,
+      .woocommerce a.button.alt:hover,
+      .woocommerce input.button.alt:hover,
+      .woocommerce
+        .widget_price_filter
+        .price_slider_wrapper
+        .ui-widget-content,
+      .woocommerce nav.woocommerce-pagination ul li a:focus,
+      .woocommerce nav.woocommerce-pagination ul li a:hover,
+      .post_button a:hover,
+      .owl-prev:hover,
+      .owl-next:hover,
+      .postcategory a:hover,
+      .widget_tag_cloud a,
+      #clienttestiminials .owl-theme .owl-nav [class*='owl-']:hover,
+      .member-social-icon a:hover {
+        color: #ffffff;
+      }
+      a.button2 {
+        color: #343c49;
+        border-color: #343c49;
+      }
+      a.button2::after {
+        background-color: #dda668;
+      }
+      a.button2:hover {
+        color: #ffffff;
+        border-color: #dda668;
+      }
+      a.buttonstyle1 {
+        color: #ffffff;
+        background-color: #343c49;
+        border-color: #ffffff;
+      }
+      a.buttonstyle1:hover {
+        color: #ffffff;
+        background-color: #dda668;
+        border-color: #ffffff;
+      }
+      .contact_right #testimonials,
+      .contact_right .contactdetail,
+      .accordion-box .acc-content {
+        color: #444444;
+      }
+      .accordion-box h2 {
+        color: #1b1b1b;
+      }
+      #sidebar ul li {
+        border-color: #000000;
+      }
+      #sidebar ul li,
+      #sidebar ul li a {
+        color: #000000;
+      }
+      #sidebar ul li a:hover {
+        color: #dda668;
+      }
+      @media screen and (max-width: 980px) {
+        .sitenav ul {
+          background-color: #000000;
+        }
+      }
+      .tabs-wrapper ul.tabs li a,
+      .woocommerce div.product .woocommerce-tabs ul.tabs li {
+        background-color: #242c3a;
+        color: #ffffff !important;
+      }
+      .tabs-wrapper ul.tabs li a.selected,
+      .woocommerce div.product .woocommerce-tabs ul.tabs li .selected {
+        background-color: #dda668;
+        color: #ffffff !important;
+      }
+      .tabs-wrapper .tab-content {
+        border-color: #ebebeb;
+        color: #1b1b1b;
+      }
+      .accordion-box h2 {
+        border-color: #c2c2c2 !important;
+        color: #000000 !important;
+        background-color: #ffffff;
+      }
+      .accordion-box h2.active {
+        color: #ffffff !important;
+        background-color: #dda668;
+      }
+      .acc-content {
+        color: #ffffff;
+      }
+      .skill-bg,
+      .barfiller {
+        background-color: #242c3a;
+      }
+      .skillbar-bar,
+      .barfiller .fill,
+      .barfiller .tip {
+        background-color: #dda668 !important;
+      }
+      .barfiller .tip::after {
+        border-color: #dda668 transparent;
+      }
+      #back-top a {
+        color: #dda668;
+      }
+      #back-top a:hover {
+        color: #242c3a;
+      }
+    </style>
+    <style type="text/css">
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    </style>
+    <style type="text/css"></style>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="http://maps.googleapis.com/maps-api-v3/api/js/37/2a/intl/en_gb/common.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="http://maps.googleapis.com/maps-api-v3/api/js/37/2a/intl/en_gb/util.js"
+    ></script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./custom.js"></script>
+  <script src="./customize-preview.js"></script>
+  <script src="./jquery.nivo.slider.js"></script>
+
+
+  <link rel='stylesheet' id='bootstrap-css'
+    href='https://s24607.pcdn.co/wp-content/themes/hestia-pro/assets/bootstrap/css/bootstrap.min.css?ver=1.0.1'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='hestia_child_parent-css'
+    href='https://s24607.pcdn.co/wp-content/themes/hestia-pro/style.css?ver=2.5.12' type='text/css' media='all' />
+  <link rel='stylesheet' id='font-awesome-css'
+    href='https://s24607.pcdn.co/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='hestia_style-css'
+    href='https://s24607.pcdn.co/wp-content/themes/justfreethemes/style.css?ver=2.5.12' type='text/css' media='all' />
+  <link rel="stylesheet"
+    href="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/style.css?ver=4.9.10&fbclid=IwAR3vkbdk42_3EUm_6MtnONy-0V0gHCtm-ZaJM0rMyUEgrmnJKVwkzR23eKI">
+
+  </head>
+
+</body>
+
 </html>
