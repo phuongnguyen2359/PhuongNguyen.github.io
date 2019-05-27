@@ -21,8 +21,8 @@ const Header = () => {
             <header className="header">
                 <div className="container mob-padding">
                     <div className="logo">
-                        <a href="honghac.com"><h1>Hong Hac Hotel</h1></a>
-                        <p>Welcome to Hong Hac Boutique Hotel</p>
+                        <a href="honghac.com"><h1>React Demo</h1></a>
+                        <p>Welcome to React Demo</p>
                     </div>
 
                     <div className="toggle">
