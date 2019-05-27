@@ -22,6 +22,7 @@ const Ratings = () => {
                                 <div className="tmttl">
                                     <h4><a href="http://flythemesdemo.net/travern/testimonials/easy-setup/">Easy Setup</a></h4>
                                 </div>
+                                
                             </div>
                         </div></div><div className="owl-item" style={{width: '819px'}}><div className="item">
                             <div className="testi-desc">
