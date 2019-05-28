@@ -65,83 +65,40 @@ const Header = () => {
                 </div>
             </header>
 
-            <div className="slider-main">
-                <div id="slider" className="nivoSlider">
-                    <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider1.jpg" alt="1" className="nivo-overlay" title="#slidecaption1" style={{ width: '1280px', visibility: 'hidden' }} />
-                    <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" alt="1" className="nivo-overlay" title="#slidecaption2" style={{ width: '1280px', visibility: 'hidden' }} />
-                    <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider3.jpg" alt="1" className="nivo-overlay" title="#slidecaption3" style={{ width: '1280px', visibility: 'hidden' }} />
-                    <img className="nivo-main-image" src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider1.jpg" style={{ display: 'block', height: '720px' }} />
-                    <div className="nivo-caption">
-
-                        <a href="#"><h2>For dream holidays</h2></a>
-
-
-
-                        <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>
-
-                    </div><div className="nivo-directionNav"><a className="nivo-prevNav">Prev</a><a className="nivo-nextNav">Next</a></div><div className="nivo-slice" name="0" style={{ left: '0px', width: '85px', height: '720px', opacity: '1', overflow: 'hidden', top: '0px' }}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{ position: 'absolute', width: '1280px', height: 'auto', display: 'block !important', top: '0', left: '-0px' }} /></div><div className="nivo-slice" name="1" style={{ left: '85px', width: '84.9866px', height: '720px', opacity: '0.999842', overflow: 'hidden', top: '0px' }}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{ position: 'absolute', width: '1280px', height: 'auto', display: 'block !important', top: '0', left: '-85px' }} />
-                    </div>
-                    <div className="nivo-slice" name="2" style={{ left: '170px', width: '82.3962px', height: '720px', opacity: '0.969367', overflow: 'hidden', top: '0px' }}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-170px'}} /></div>
-                    <div className="nivo-slice" name="3" style={{left: '255px', width: '75.4164px', height: '720px', opacity: '0.887252', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-255px'}} /></div>
-                    <div className="nivo-slice" name="4" style={{left: '340px', width: '66.8284px', height: '720px', opacity: '0.786216', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-340px'}} /></div>
-                    <div className="nivo-slice" name="5" style={{left: '425px', width: '57.6475px', height: '720px', opacity: '0.678206', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-425px'}} /></div>
-                    <div className="nivo-slice" name="6" style={{left: '510px', width: '44.6354px', height: '720px', opacity: '0.525122', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-510px'}} /></div>
-                    <div className="nivo-slice" name="7" style={{left: '595px', width: '30.6429px', height: '720px', opacity: '0.360504', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-595px'}} /></div>
-                    <div className="nivo-slice" name="8" style={{left: '680px', width: '18.6115px', height: '720px', opacity: '0.218958', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-680px'}} /></div>
-                    <div className="nivo-slice" name="9" style={{left: '765px', width: '6.61606px', height: '720px', opacity: '0.077836', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-765px'}} /></div>
-                    <div className="nivo-slice" name="10" style={{left: '850px', width: '0.0411003px', height: '720px', opacity: '0.000483533', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-850px'}} /></div>
-                    <div className="nivo-slice" name="11" style={{left: '935px', width: '0.0411003px', height: '720px', opacity: '0.000483533', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-935px'}} /></div>
-                    <div className="nivo-slice" name="12" style={{left: '1020px', width: '0px', height: '720px', opacity: '0', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-1020px'}} /></div>
-                    <div className="nivo-slice" name="13" style={{left: '1105px', width: '0px', height: '720px', opacity: '0', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-1105px'}} /></div>
-                    <div className="nivo-slice" name="14" style={{left: '1190px', width: '0px', height: '720px', opacity: '0', overflow: 'hidden', top: '0px'}}>
-                        <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" style={{position:'absolute', width:'1280px', height:'auto', display:'block !important', top:'0', left:'-1190p'}} /></div>
-                </div>
-
-                <div id="slidecaption1" className="nivo-html-caption">
-
-                    <a href="#"><h2>Welcome to your residence</h2></a>
-
-
-
-                    <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>
-
-                </div>
-                <div id="slidecaption2" className="nivo-html-caption">
-
-                    <a href="#"><h2>For dream holidays</h2></a>
-
-
-
-                    <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>
-
-                </div>
-                <div id="slidecaption3" className="nivo-html-caption">
-
-                    <a href="#"><h2>Unpretentiously luxurious</h2></a>
-
-
-                    <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>
-
-                </div>
-
-
-            </div>
-
-
+            <div class="slider-main">
+                               <div id="slider" class="nivoSlider">
+                    <img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider1.jpg" alt="1" class="nivo-overlay" title="#slidecaption1"/><img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider2.jpg" alt="1" class="nivo-overlay" title="#slidecaption2"/><img src="http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/slides/slider3.jpg" alt="1" class="nivo-overlay" title="#slidecaption3"/>                    </div> 
+                    
+                                             <div id="slidecaption1" class="nivo-html-caption">                            
+                                                      
+                                <a href="#"><h2>Welcome to your residence</h2></a>						
+                             
+                            
+                                                      
+                                <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>						
+                                                                                                               	                                        
+                        </div>
+                                             <div id="slidecaption2" class="nivo-html-caption">                            
+                                                      
+                                <a href="#"><h2>For dream holidays</h2></a>						
+                             
+                            
+                                                      
+                                <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>						
+                                                                                                               	                                        
+                        </div>
+                                             <div id="slidecaption3" class="nivo-html-caption">                            
+                                                      
+                                <a href="#"><h2>Unpretentiously luxurious</h2></a>						
+                             
+                            
+                                                      
+                                <p>Suspendisse faucibus porttitor elementum. Phasellus eros ex, hendrerit nec mauris eget, auctor fringilla lectus.</p>						
+                                                                                                               	                                        
+                        </div>
+                        
+                                                      	
+        </div>
         </div>
 
     )

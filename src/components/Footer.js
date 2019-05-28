@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
 
                 <div className="cols-3 widget-column">
-                    <h5>About Hong Hac Hotel</h5>
+                    <h5>About</h5>
                     <div className="textwidget">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan vehicula lacus. Praesent aliquet efficitur quam.</p>
                         <div className="contactdetail">
@@ -44,7 +44,7 @@ const Footer = () => {
                                 <input type="hidden" name="_wpcf7_container_post" value="0" />
                             </div>
                             <div className="newsletter"><span className="wpcf7-form-control-wrap nemail">
-                                <input type="email" name="nemail" value="" size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span><button type="submit" className="btn btn-large btn-primary"><i className="fa fa-paper-plane"></i></button></div>
+                                <input type="email" name="nemail" size="40" className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span><button type="submit" className="btn btn-large btn-primary"><i className="fa fa-paper-plane"></i></button></div>
                             <div className="wpcf7-response-output wpcf7-display-none"></div></form></div>
                     <h5>Follow Us</h5>
                     <div className="social-icons"><a style={{backgroundColor:''}} href="#" target="_blank" title="facebook"><i className="fa fa-facebook"></i></a><a style={{backgroundColor:''}} href="#" target="_blank" title="twitter"><i className="fa fa-twitter"></i></a><a style={{backgroundColor:''}} href="#" target="_blank" title="google-plus"><i className="fa fa-google-plus"></i></a><a style={{backgroundColor:''}} href="#" target="_blank" title="linkedin"><i className="fa fa-linkedin"></i></a><a style={{backgroundColor:''}} href="#" target="_blank" title="pinterest-p"><i className="fa fa-pinterest-p"></i></a></div>			</div>
