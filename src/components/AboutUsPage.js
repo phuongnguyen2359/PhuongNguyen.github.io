@@ -1,11 +1,10 @@
 import React from 'react'
 
 
-
 const AboutUsPage = () => {
 
     return (
-        scriptLoaded && <div>
+        <div>
             <div className="innerbanner" style={{ background: "url('http://flythemesdemo.net/travern/wp-content/themes/travern-pro/images/inner-banner.jpg') no-repeat scroll center center",  backgroundSize: 'cover' }}>            
                 <div className="container">
                     <h1 className="innerpage-title">
@@ -13,6 +12,9 @@ const AboutUsPage = () => {
                     </h1>
                     <div id="crumbs"><a href="http://flythemesdemo.net/travern">Home</a> » <span className="current">ABOUT US</span></div></div>
             </div>
+
+
+
             <div className="container content-area">
                 <div className="middle-align">
                     <div className="site-main sitefull">
