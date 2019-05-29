@@ -51,7 +51,7 @@ const TopHeader = () => {
                     </div>
 
                     <div className="sitenav">
-                        <div className="menu-main-menu-container"><ul id="menu-main-menu" className="menu"><li id="menu-item-65" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><a href='/home/'>Home</a></li>
+                        <div className="menu-main-menu-container"><ul id="menu-main-menu" className="menu"><li id="menu-item-65" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><a href='/home'>Home</a></li>
                             <li id="menu-item-77" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77 has-sub"><span className="submenu-button"></span><a href="#" className="parent">Travern</a>
                                 <ul className="sub-menu" style={{display: 'block'}}>
                                     <li id="menu-item-66" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><Link to="/about/">About Us</Link></li>
