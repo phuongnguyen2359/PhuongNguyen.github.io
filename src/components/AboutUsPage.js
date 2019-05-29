@@ -13,8 +13,6 @@ const AboutUsPage = () => {
                     <div id="crumbs"><a href="http://flythemesdemo.net/travern">Home</a> » <span className="current">ABOUT US</span></div></div>
             </div>
 
-
-
             <div className="container content-area">
                 <div className="middle-align">
                     <div className="site-main sitefull">
@@ -44,7 +42,7 @@ const AboutUsPage = () => {
                                         <p> Contrary to popular belief, Lorem isn’t simply random text. </p>
                                         <span>Read More</span>
                                     </div>
-                                </a></div><div className="clear"></div><div style={{height:'50px'}}></div><div className="custom-heading" style={{textAlign: 'center'}}>><h2 style={{color:'#242c3a'}}><span>Why Us</span>Why Choose Us</h2></div><div className="one_third "><div className="icon-info-box">
+                                </a></div><div className="clear"></div><div style={{height:'50px'}}></div><div className="custom-heading" style={{textAlign: 'center'}}><h2 style={{color:'#242c3a'}}><span>Why Us</span>Why Choose Us</h2></div><div className="one_third "><div className="icon-info-box">
                                     <div className="info-box-wrap">
                                         <div className="icon-top">
                                             <i className="fa fa-life-ring" aria-hidden="true"></i>

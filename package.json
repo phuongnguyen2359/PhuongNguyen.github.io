@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://phuongnguyen2359/honghac",
   "dependencies": {
+    "firebase": "^6.1.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-async-script-loader": "^0.3.0",

@@ -2,19 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 
 import Home from './components/Home'
-
-import Header from './components/Header'
 import Footer from './components/Footer'
-
 import ContactPage from './components/ContactPage'
 import GalleryPage from './components/GalleryPage'
 import RoomsPage from './components/RoomsPage'
 import AboutUsPage from './components/AboutUsPage'
 import BlogsPage from './components/BlogsPage'
 
+
 import './css/Main.css'
 import './css/CustomMain.css'
-// import './css/style.css'
+
+//import './css/style.css'
 import './css/customize-controls.css'
 import './css/nivo-slider.css'
 import './css/theme-responsive.css'

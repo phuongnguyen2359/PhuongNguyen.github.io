@@ -1,7 +1,19 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
+import { createUser, getUser } from '../mockData/config'
+import { get } from 'http';
 
 const TopHeader = () => {
+    const [user, setUser] = useState('Travern')
+
+    useEffect(() => {
+        getUser().then(item => {
+            const data = item.data()
+
+            setUser(data)
+    }, [])
+})
+
     return (
 
         <div>
@@ -10,7 +22,7 @@ const TopHeader = () => {
                 <div className="container">
                     <div className="tp-header-left">
                         <ul>
-                            <li className="iconadd">127, Lorem ipsum, Dolor sit amet</li>
+                            <li className="iconadd" >127, Lorem ipsum, Dolor sit amet</li>
                             <li className="iconnum"><a href="tel:+888 888 8888">+888 888 8888</a></li>
                         </ul>
                     </div>
@@ -25,7 +37,7 @@ const TopHeader = () => {
             <header className="header">
                 <div className="container mob-padding">
                     <div className="logo">
-                        <a href="http://flythemesdemo.net/travern/"><h1>Travern</h1></a>
+                        <a href="http://flythemesdemo.net/travern/"><h1>{user.first}</h1></a>
                         <p>Travel WordPress Theme</p>
                     </div>
 
@@ -34,12 +46,12 @@ const TopHeader = () => {
                     </div>
 
                     <div className="head-button">
-                        <a href="http://flythemesdemo.net/travern/opal-hotel-reservation/">
+                        <a onClick={createUser} >
                             Book Now                    </a>
                     </div>
 
                     <div className="sitenav">
-                        <div className="menu-main-menu-container"><ul id="menu-main-menu" className="menu"><li id="menu-item-65" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><Link to="/">Home</Link></li>
+                        <div className="menu-main-menu-container"><ul id="menu-main-menu" className="menu"><li id="menu-item-65" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><a href='/'>Home</a></li>
                             <li id="menu-item-77" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77 has-sub"><span className="submenu-button"></span><a href="#" className="parent">Travern</a>
                                 <ul className="sub-menu" style={{display: 'block'}}>
                                     <li id="menu-item-66" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><Link to="/about/">About Us</Link></li>
