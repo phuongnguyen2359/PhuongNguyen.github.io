@@ -2,7 +2,7 @@
   "name": "honghac",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phuongnguyen2359/home",
+  "homepage": "https://phuongnguyen2359/honghac/home",
   "dependencies": {
     "firebase": "^6.1.0",
     "gh-pages": "^2.0.1",
