@@ -38,7 +38,7 @@ const TopHeader = () => {
                 <div className="container mob-padding">
                     <div className="logo">
                         <a href="http://flythemesdemo.net/travern/"><h1>{user.first}</h1></a>
-                        <p>Travel WordPress Theme</p>
+                        <p> {user.last}</p>
                     </div>
 
                     <div className="toggle">
@@ -51,10 +51,10 @@ const TopHeader = () => {
                     </div>
 
                     <div className="sitenav">
-                        <div className="menu-main-menu-container"><ul id="menu-main-menu" className="menu"><li id="menu-item-65" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><a href='/home'>Home</a></li>
+                        <div className="menu-main-menu-container"><ul id="menu-main-menu" className="menu"><li id="menu-item-65" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65"><a href='/'>Home</a></li>
                             <li id="menu-item-77" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77 has-sub"><span className="submenu-button"></span><a href="#" className="parent">Travern</a>
                                 <ul className="sub-menu" style={{display: 'block'}}>
-                                    <li id="menu-item-66" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><Link to="/about/">About Us</Link></li>
+                                    <li id="menu-item-66" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href='/about'>About Us</a></li>
                                     <li id="menu-item-72" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="http://flythemesdemo.net/travern/faq/">FAQ</a></li>
                                     <li id="menu-item-78" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-78 has-sub"><span className="submenu-button"></span><a href="#" className="parent">Pages</a>
                                         <ul className="sub-menu" style={{display: 'block'}}>

@@ -626,7 +626,7 @@ section {
 }
 
 .slider-main {
-	min-height: 860px;
+	min-height: 600px;
 	position: relative;
 	background: url(../images/loading.gif) no-repeat center center #fff; 
 	overflow: hidden

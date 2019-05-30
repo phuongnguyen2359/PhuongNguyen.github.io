@@ -29,7 +29,7 @@ function App() {
     <Router>
     <div className="App">
       <TopHeader/>
-      <Route path='/home' exact component={Home} />
+      <Route path='/' exact component={Home} />
       <Route path='/rooms' exact component={RoomsPage} />
       <Route path='/gallery' exact component={GalleryPage} />
       <Route path='/blogs' exact component={BlogsPage} />
